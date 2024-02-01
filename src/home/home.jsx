@@ -12,7 +12,7 @@ export default function Home() {
       </Box>
       <Box sx={{ display: 'flex', justifyContent: 'center', width:'100%', marginTop: '25px'}}>
         <Typography sx={{ fontSize: '18px', fontWeight: 'semiBold'}} >
-            Welcome to the page of an upcoming...
+            What our goal is to offer...
         </Typography>
       </Box>
     </>
