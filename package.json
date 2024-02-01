@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "npm run build && gh-pages -s build -e index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -r https://github.com/alexandsten/mmareactproject.git",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
